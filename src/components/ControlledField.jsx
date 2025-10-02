@@ -23,11 +23,12 @@ const ControlledField = () => {
     setPassword(e.target.value);
 
     //// controlled system. running time e dekhabe je kono error ache naki
-    if(password.length <6){
-        setPasswordError("password can not less than 6. conditional error shows current time")
-    }
-    else{
-        setPasswordError('')
+    if (password.length < 6) {
+      setPasswordError(
+        "password can not less than 6. conditional error shows current time"
+      );
+    } else {
+      setPasswordError("");
     }
   };
 
