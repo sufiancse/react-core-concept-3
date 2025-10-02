@@ -1,7 +1,9 @@
 import "./App.css";
 import ControlledField from "./components/ControlledField";
+import CustomHookForm from "./components/CustomHookForm";
 import FormData from "./components/FormData";
 import SimpleForm from "./components/SimpleForm";
+import UnControlledField from "./components/UnControlledField";
 
 function App() {
   return (
@@ -9,7 +11,9 @@ function App() {
       <h1>Explore React Core Concepts</h1>
       {/* <SimpleForm></SimpleForm> */}
       {/* <FormData></FormData> */}
-      <ControlledField></ControlledField>
+      {/* <ControlledField></ControlledField> */}
+      {/* <UnControlledField></UnControlledField> */}
+      <CustomHookForm></CustomHookForm>
     </>
   );
 }
